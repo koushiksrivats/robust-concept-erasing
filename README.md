@@ -49,7 +49,7 @@ If you find our work and this repository useful, please consider giving our repo
 }
 ```
 ## Contact
-If you have any questions, please create an issue on this repository or contact at koushik.srivatsan@mbzuai.ac.ae.
+If you have any questions, please create an issue on this repository or contact at koushiksrivatsan.ofcl@gmail.com.
 
 
 ## 🔜 Code and Models Coming Soon !!
