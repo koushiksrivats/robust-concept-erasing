@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img src="images/teaser.jpg" align="center" width="85%">
+  <img src="images/teaser.jpg" align="center" width="95%">
 </p>
 
 
@@ -28,7 +28,7 @@ Large-scale diffusion models for text-to-image generation are susceptible to adv
 
 
 <p align="center">
-  <img src="images/pipeline.png" align="center" width="85%">
+  <img src="images/pipeline.png" align="center" width="95%">
 </p>
  
 ## Abstract
