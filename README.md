@@ -15,7 +15,13 @@
 
 **MBZUAI, UAE**
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
+<a href="" target='_blank'>
+    <img src="https://img.shields.io/badge/arXiv-Paper-brown.svg">
+</a>
+
+<a href="https://koushiksrivats.github.io/robust-concept-erasing/" target='_blank'>
+    <img src=https://img.shields.io/badge/Project-Website-87CEEB">
+</a>
 
 
 # :rocket: Release
