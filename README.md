@@ -1,19 +1,24 @@
 
 # ***STEREO***: Towards Adversarially Robust Concept Erasing from Text-to-Image Generation Models
 
+
+<p align="center">
+ <a href="https://koushiksrivats.github.io/">Koushik Srivatsan</a>
+ <a href="https://fahadshamshad.github.io/">Fahad Shamshad</a>
+ <a href="https://muzammal-naseer.com/">Muzammal Naseer</a>
+ <a href="https://scholar.google.com.pk/citations?user=2qx0RnEAAAAJ&hl=en">Karthik Nandakumar</a>
+ <br>
+    <span style="font-size:1em; "><strong> Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), UAE</strong>.</span>
+</p>
+
 <p align="center">
     <img src="https://i.imgur.com/waxVImv.png" alt="Image">
 </p>
 
+
 <p align="center">
   <img src="docs/static/images/teaser.jpg" align="center" width="95%">
 </p>
-
-
-[**STEREO: Towards Adversarially Robust Concept Erasing from Text-to-Image Generation Models**]()<br>
-[Koushik Srivatsan](https://koushiksrivats.github.io/), [Fahad Shamshad](https://fahadshamshad.github.io/), [Muzammal Naseer](https://muzammal-naseer.com/), [Karthik Nandakumar](https://scholar.google.com.pk/citations?user=2qx0RnEAAAAJ&hl=en)
-
-**MBZUAI, UAE**
 
 <a href="" target='_blank'>
     <img src="https://img.shields.io/badge/arXiv-Paper-brown.svg">
@@ -51,7 +56,11 @@ prompts that can regenerate target concepts from erased models. Note that,  the 
 **Stage 2 (bottom)**: Robustly Erase Once fine-tunes the model using an anchor concept and the set of strong adversarial prompts from Stage 1 via a compositional objective, maintaining high-fidelity generation of benign concepts while robustly erasing the target concept.
  
 
+## 🔜 Code and Models Coming Soon !!
 
+
+
+## Citation
 If you find our work and this repository useful, please consider giving our repo a star and citing our paper as follows:
 ```bibtex
 @article{srivatsan2024stereo,
@@ -63,10 +72,6 @@ If you find our work and this repository useful, please consider giving our repo
 ```
 ## Contact
 If you have any questions, please create an issue on this repository or contact at koushiksrivatsan.ofcl@gmail.com.
-
-
-## 🔜 Code and Models Coming Soon !!
-
 
 ## Acknowledgement :pray:
 Our code is built on top of the [ESD](https://github.com/rohitgandikota/erasing) repository. We thank the authors for releasing their code.
