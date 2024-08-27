@@ -5,6 +5,10 @@
     <img src="https://i.imgur.com/waxVImv.png" alt="Image">
 </p>
 
+<p align="center">
+  <img src="images/teaser.jpg" align="center" width="85%">
+</p>
+
 
 > [**STEREO: Towards Adversarially Robust Concept Erasing from Text-to-Image Generation Models**]()<br>
 > [Koushik Srivatsan](https://koushiksrivats.github.io/), [Fahad Shamshad](https://fahadshamshad.github.io/), [Muzammal Naseer](https://muzammal-naseer.com/), and [Karthik Nandakumar](https://scholar.google.com.pk/citations?user=2qx0RnEAAAAJ&hl=en)
