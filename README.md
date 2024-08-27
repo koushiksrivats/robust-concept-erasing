@@ -38,12 +38,19 @@
   ## Highlights
 Large-scale diffusion models for text-to-image generation are susceptible to adversarial attacks that can regenerate harmful concepts despite erasure efforts. We introduce ***STEREO***, a robust approach designed to prevent this regeneration while preserving the model's ability to generate benign content.
 
+**<p align="justify">** ***Overview of STEREO***. Our novel two-stage approach robustly erases target concepts from pre-trained text-to-image generation models while preserving high utility for benign concepts. **Stage 1 (top)**: Search Thoroughly Enough finetunes the model through iterative concept erasing and concept inversion attacks, ensuring resilience against adversarial regeneration attempts. **Stage 2 (bottom)**: Robustly Erase Once fine-tunes the model using anchor concept and the set of strong adversarial prompts from Stage 1 via a compositional objective, maintaining high-fidelity generation of benign conceptswhile robustly erasing the target concept.
 
 <p align="center">
   <img src="images/pipeline.png" align="center" width="95%">
 </p>
 
-**<p align="justify">** ***Overview of STEREO***. Our novel two-stage approach robustly erases target concepts from pre-trained text-to-image generation models while preserving high utility for benign concepts. **Stage 1 (top)**: Search Thoroughly Enough finetunes the model through iterative concept erasing and concept inversion attacks, ensuring resilience against adversarial regeneration attempts. **Stage 2 (bottom)**: Robustly Erase Once fine-tunes the model using anchor concept and the set of strong adversarial prompts from Stage 1 via a compositional objective, maintaining high-fidelity generation of benign conceptswhile robustly erasing the target concept.
+
+
+## Visualization of all objects under the CCE attack across different methods. The proposed STEREO is robust against recent concept regenerate attacks.
+
+<p align="center">
+  <img src="images/objects.jpg" align="center" width="70%">
+</p>
  
 
 
