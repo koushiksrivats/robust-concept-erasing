@@ -13,7 +13,7 @@
 > [**STEREO: Towards Adversarially Robust Concept Erasing from Text-to-Image Generation Models**]()<br>
 > [Koushik Srivatsan](https://koushiksrivats.github.io/), [Fahad Shamshad](https://fahadshamshad.github.io/), [Muzammal Naseer](https://muzammal-naseer.com/), and [Karthik Nandakumar](https://scholar.google.com.pk/citations?user=2qx0RnEAAAAJ&hl=en)
 >
-> **Mohamed bin Zayed University of AI**
+> **MBZUAI, UAE**
 >
 > [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
 >
