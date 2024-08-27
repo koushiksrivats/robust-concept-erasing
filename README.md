@@ -5,15 +5,6 @@
     <img src="https://i.imgur.com/waxVImv.png" alt="Image">
 </p>
 
-<p align="center">
-  <img src="images/teaser.jpg" align="center" width="95%">
-</p>
-
-<p align="center">
-  <img src="images/identity.jpg" align="center" width="95%">
-</p>
-
-
 > [**STEREO: Towards Adversarially Robust Concept Erasing from Text-to-Image Generation Models**]()<br>
 > [Koushik Srivatsan](https://koushiksrivats.github.io/), [Fahad Shamshad](https://fahadshamshad.github.io/), [Muzammal Naseer](https://muzammal-naseer.com/), and [Karthik Nandakumar](https://scholar.google.com.pk/citations?user=2qx0RnEAAAAJ&hl=en)
 >
@@ -21,7 +12,20 @@
 >
 > [![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
 >
+
+
+<p align="center">
+  <img src="images/teaser.jpg" align="center" width="90%">
+</p>
+
+<p align="center">
+  <img src="images/identity.jpg" align="center" width="90%">
+</p>
+
 > ---
+
+
+
 >
 > # :rocket: Release
 * **(August 28, 2024)**
