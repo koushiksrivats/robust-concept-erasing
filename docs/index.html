@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description"
+        content="RobustConceptErasingSTEREO">
+  <meta name="keywords" content="Diffusion Model, Generative AI, Adversarial Attacks, Robustness, Concept Erasing">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+        rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+  <style>
+  @import url('https://fonts.cdnfonts.com/css/menlo');
+  </style>
+<body>
+<section class="hero">
+  <div class="hero-body">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column has-text-centered">
+         <h1 class="title is-2 publication-title">
+           <!-- <i class="fas fa-shield-alt"></i> -->
+           </span>STEREO: Towards Adversarially Robust Concept Erasing from Text-to-Image Generation Models</h1>
+        <div class="is-size-5 publication-authors">
+           <span class="author-block">
+             <a href="https://koushiksrivats.github.io">Koushik Srivatsan</a></sup>,
+           </span>
+           <span class="author-block">
+            <a href="https://fahadshamshad.github.io/">Fahad Shamshad</a></sup>,
+          </span>
+           <span class="author-block">
+            <a href="https://muzammal-naseer.netlify.app">Muzammal Naseer</a></sup>,
+          </span>
+           <span class="author-block">
+             <a href="https://scholar.google.com/citations?user=2qx0RnEAAAAJ&hl=en">Karthik Nandakumar</a></sup>
+           </span>
+        </div>
+
+        <div class="is-size-5 publication-authors">
+          <span class="author-block"></sup><strong>MBZUAI, UAE.</strong></span>
+        </div>
+          
+        <!-- <div class="is-size-5 publication-authors">
+          <span class="author-block"><strong style="font-size: 1.5em;">[</strong><strong style="font-family: 'Google Sans', sans-serif; font-weight: bold; font-size: 1.4em; color: slateblue;"></strong><strong style="font-size: 1.5em;">]</strong></span>
+        </div> -->
+
+        <div class="column has-text-centered">
+          <div class="publication-links">
+            <!-- Main paper PDF Link. -->
+            <!-- <span class="link-block">
+              <a href=""
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Paper</span>
+              </a>
+            </span> -->
+
+            <!-- Suppl paper PDF Link.
+            <span class="link-block">
+              <a href=""
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>Supplementary</span>
+              </a>
+            </span> -->
+
+
+            <!-- arXiv paper PDF Link. -->
+            <span class="link-block">
+              <a href=""
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                </span>
+                <span>arXiv</span>
+              </a>
+            </span>
+
+
+            <!-- Code Link. -->
+            <span class="link-block">
+              <a href="https://github.com/koushiksrivats/robust-concept-erasing"
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fab fa-github"></i>
+                </span>
+                <span>Code</span>
+                </a>
+            </span>
+
+
+            
+            <!-- Video Link.
+            <span class="link-block">
+              <a href=""
+                 class="external-link button is-normal is-rounded is-dark">
+                <span class="icon">
+                    <i class="fab fa-youtube"></i>
+                </span>
+                <span>Video</span>
+              </a>
+            </span> -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Add the idea GIF -->
+<!-- <section class="hero-body">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+          <img src="./static/images/twitter_gif.gif">
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+
+
+<!-- Teaser Image -->
+<section class="hero-body">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+          <img src="./static/images/teaser.jpg">
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<!-- Abstract. -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="subtitle has-text-justified">
+          <p>
+            The rapid proliferation of large-scale text-to-image generation (T2IG) models has led to concerns about their potential misuse in generating harmful content.
+            Though many methods have been proposed for erasing undesired concepts from T2IG models, they only provide a  false sense of security, 
+            as recent works demonstrate that concept-erased models (CEMs) can be easily deceived to generate the erased concept through adversarial attacks. 
+            The problem of adversarially robust concept erasing without significant degradation to model  utility (ability to generate benign concepts) remains an unresolved challenge, 
+            especially in the white-box setting where the adversary has access to the CEM. To address this gap, we propose an approach called <b>STEREO</b> that 
+            involves two distinct stages. The first stage <b>S</b>earches <b>T</b>horoughly <b>E</b>nough (<b>STE</b>) for strong and diverse adversarial prompts 
+            that can regenerate an erased concept from a CEM, by leveraging robust optimization principles from adversarial training.
+            In the second <b>R</b>obustly <b>E</b>rase <b>O</b>nce (<b>REO</b>) stage, we introduce an anchor-concept-based compositional objective to robustly erase 
+            the target concept at one go, while attempting to minimize the degradation on model utility. By benchmarking the proposed <b>STEREO</b> approach 
+            against four state-of-the-art concept erasure methods under three adversarial attacks, we demonstrate its ability to achieve a better robustness vs. utility trade-off.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Overview section -->
+<section class="hero-body">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">
+        <h2 class="title is-3">Overview</h2>
+      </div>
+  </div>
+
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <p>
+          Large-scale diffusion models for text-to-image generation are susceptible to adversarial attacks that can regenerate harmful concepts despite erasure efforts. 
+          We introduce <b>STEREO</b>, a robust approach designed to prevent this regeneration while preserving the model's ability to generate benign content.
+        </p>
+      </div>
+    </div>
+
+  
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+          <img src="./static/images/pipeline.png">
+      </div>
+    </div>
+  </div>
+
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <p>
+          We propose a novel two-stage framework for adversarially robust concept erasing from pre-trained text-to-image generation models without significantly affecting the utility for benign concepts. 
+        </p>
+        <p>
+        <b>Stage 1 (top)</b>: Search Thoroughly Enough (STE) follows the robust optimization framework of Adversarial Training and formulates concept erasing as a min-max optimization problem, to discover strong adversarial
+        prompts that can regenerate target concepts from erased models. Note that,  the core novelty of our approach lies in the fact that we employ AT not as a final solution, but only as an intermediate step to search thoroughly enough for strong adversarial prompts.
+        </p>
+
+        <p>
+        <b>Stage 2 (bottom)</b>: Robustly Erase Once fine-tunes the model using an anchor concept and the set of strong adversarial prompts from Stage 1 via a compositional objective, maintaining high-fidelity generation of benign concepts while robustly erasing the target concept.
+        </p>
+      </div>
+    </div>
+</section>
+
+
+<!-- Results -->
+<section class="hero-body">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">
+        <h2 class="title is-3">Results</h2>
+      </div>
+  </div>
+
+  <br>
+
+  <!-- Erasure Performance -->
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <p>
+        <strong>Effectiveness of Erasure Methods for the Nudity Category</strong>
+      </p>
+
+      <div class="column is-four-fifths"><img src="./static/images/nudity_erasing.png"></div>
+    </div>
+  </div>
+
+
+  <!-- Robustness against CCE -->
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <br>
+      <p>
+        <strong>Robustness of Erasure Methods against the CCE attack for Nudity Erasing</strong>
+      </p>
+      <!-- <br> -->
+      <div class="column is-four-fifths"><img src="./static/images/nudity_cce_attack.png"></div>
+    </div>
+  </div>
+
+
+  <!-- Utility on the Benign Concepts-->
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <p>
+        <strong>Utility on the bening Concepts</strong>
+      </p>
+      <div class="column is-four-fifths"><img src="./static/images/utility_comparision.png"></div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- How does it work -->
+<section class="hero-body">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full-width">
+          <h2 class="title is-3">How Does it Work ?</h2>
+        </div>
+    </div>
+
+      <div class="column is-four-fifths"><img src="./static/images/STEREO_algorithm.png"></div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Results
+<section class="hero-body">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-full-width">
+        <h2 class="title is-3">Performance on the Object and Identity Categories</h2>
+      </div>
+  </div>
+
+  <br>
+
+</section> -->
+
+
+
+<!-- Bibtex -->
+<section class="section" id="BibTeX">
+  <div class="container is-max-desktop content">
+    <h2 class="title">BibTeX</h2>
+    <pre><code>
+      @article{srivatsan2024stereo,
+        title={STEREO: Towards Adversarially Robust Concept Erasing from Text-to-Image Generation Models},
+        author={Koushik, Srivatsan and Shamshad, Fahad and Naseer, Muzammal and Nandakumar, Karthik},
+        journal={arXiv preprint arXiv:xxxxxxx},
+        year={2024}
+      }
+</code></pre>
+  </div>
+</section>
+  
+
+<!-- Acknowledgements -->
+<footer class="footer">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            Website adapted from the following <a href="https://github.com/nerfies/nerfies.github.io">source code</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
