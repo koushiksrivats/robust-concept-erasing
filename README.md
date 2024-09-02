@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <a href="" target='_blank'>
+  <a href="https://arxiv.org/pdf/2408.16807" target='_blank'>
       <img src="https://img.shields.io/badge/arXiv-Paper-brown.svg">
   </a>
 
@@ -31,7 +31,7 @@
 </p>
 
 # :rocket: Release
-* **(August 28, 2024)**
+* **(September 02, 2024)**
   * Paper uploaded on arXiv.
  
 ## Abstract
