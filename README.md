@@ -66,7 +66,7 @@ If you find our work and this repository useful, please consider giving our repo
 ```bibtex
 @article{srivatsan2024stereo,
   title={STEREO: Towards Adversarially Robust Concept Erasing from Text-to-Image Generation Models},
-  author={Koushik, Srivatsan and Shamshad, Fahad and Naseer, Muzammal and Nandakumar, Karthik},
+  author={Srivatsan, Koushik and Shamshad, Fahad and Naseer, Muzammal and Nandakumar, Karthik},
   journal={arXiv preprint arXiv:2408.16807},
   year={2024}
 }
