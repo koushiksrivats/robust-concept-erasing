@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <a href="" target='_blank'><img src="https://img.shields.io/badge/arXiv-Paper-brown.svg"></a>
+  <a href="https://arxiv.org/pdf/2408.16807" target='_blank'><img src="https://img.shields.io/badge/arXiv-Paper-brown.svg"></a>
   <a href="https://huggingface.co/koushiksrivats/STEREO/tree/main" target="_blank"><img src="https://img.shields.io/badge/HuggingFace-Model-yellow?logo=huggingface&logoColor=white"></a>
 
 </p>
