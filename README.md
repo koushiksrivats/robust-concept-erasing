@@ -1,7 +1,7 @@
 <p align="center">
 
 <h2 align="center"><strong>STEREO: A Two-Stage Framework for Adversarially Robust Concept Erasing from Text-to-Image Diffusion Models</strong></h2>
-<h3 align="center"><strong>[:star: CVPR 2025 Highlight :star:]</strong></h3>
+<h3 align="center"><strong>[⭐ CVPR 2025 Highlight ⭐]</strong></h3>
 
 <p align="center">
     <a href="https://koushiksrivats.github.io/">Koushik Srivatsan</a><sup>1,2</sup>,
