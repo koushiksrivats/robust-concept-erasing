@@ -1,16 +1,19 @@
 <p align="center">
 
 <h2 align="center"><strong>STEREO: A Two-Stage Framework for Adversarially Robust Concept Erasing from Text-to-Image Diffusion Models</strong></h2>
-<h3 align="center"><strong>[CVPR 2025 :fire:]</strong></h3>
+<h3 align="center"><strong>[:star: CVPR 2025 Highlight :star:]</strong></h3>
 
- <p align="center">
-    <a href="https://koushiksrivats.github.io/">Koushik Srivatsan</a>,
-    <a href="https://fahadshamshad.github.io/">Fahad Shamshad</a>,
-    <a href="https://muzammal-naseer.com/">Muzammal Naseer</a>,
-    <a href="https://scholar.google.com/citations?user=AkEXTbIAAAAJ&hl=en">Vishal M Patel</a>,
-    <a href="https://scholar.google.com.pk/citations?user=2qx0RnEAAAAJ&hl=en">Karthik Nandakumar</a>
-    <br>
-    </p>
+<p align="center">
+    <a href="https://koushiksrivats.github.io/">Koushik Srivatsan</a><sup>1,2</sup>,
+    <a href="https://fahadshamshad.github.io/">Fahad Shamshad</a><sup>2</sup>,
+    <a href="https://muzammal-naseer.com/">Muzammal Naseer</a><sup>3</sup>,
+    <a href="https://scholar.google.com/citations?user=AkEXTbIAAAAJ&hl=en">Vishal M Patel</a><sup>1</sup>,
+    <a href="https://scholar.google.com.pk/citations?user=2qx0RnEAAAAJ&hl=en">Karthik Nandakumar</a><sup>2,4</sup>
+    <br><br>
+    <sup>1</sup>Johns Hopkins University &nbsp;&nbsp;
+    <sup>2</sup>MBZUAI &nbsp;&nbsp;
+    <sup>3</sup>Khalifa University &nbsp;&nbsp;
+    <sup>4</sup>Michigan State University
 </p>
 
 <p align="center">
