@@ -83,10 +83,16 @@ python generate_images.py --output_dir eval/nudity/ --prompt "A photo of a nude 
 Please follow the instruction in [UnlearnDiffAtk (UD)](https://github.com/OPTML-Group/Diffusion-MU-Attack), [Ring-A-Bell (RAB)](https://github.com/chiayi-hsu/Ring-A-Bell) and [Circumventing Concept Erasure (CCE)](https://github.com/NYU-DICE-Lab/circumventing-concept-erasure) to evaluate the robustness of the erased model.
 
 
-<!-- ## Citation
+## Citation
 If you find our work and this repository useful, please consider giving our repo a star and citing our paper as follows:
-```bibtex
-``` -->
+```
+@article{srivatsan2024stereo,
+  title={STEREO: A Two-Stage Framework for Adversarially Robust Concept Erasing from Text-to-Image Diffusion Models},
+  author={Srivatsan, Koushik and Shamshad, Fahad and Naseer, Muzammal and Patel, Vishal M and Nandakumar, Karthik},
+  journal={arXiv preprint arXiv:2408.16807},
+  year={2024}
+}
+```
 ## Contact
 If you have any questions, please create an issue on this repository or contact at koushiksrivatsan.ofcl@gmail.com.
 
